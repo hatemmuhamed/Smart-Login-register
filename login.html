@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="row">
+<!-- form sign in  -->
+                <div class="wrapper1" id="formSignIn">
+                    <form action="#">
+                    <h2>Login</h2>
+                    <p id="alertMsg" class="d-none"></p>
+                        <div class="input-field">
+                        <input type="text" id="emailLogin">
+                        <label>Enter your email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" id="pwLogin">
+                        <label>Enter your password</label>
+                    </div>
+                    <button type="button" id="btnLogin">Log In</button>
+                    <div class="register">
+                        <p>Don't have an account? <a href="#" id="signUp">Register</a></p>
+                    </div>
+                    </form>
+                </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/sweetalert2.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+    
+</html>

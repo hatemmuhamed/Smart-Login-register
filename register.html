@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="row">
+<!-- form sign up  -->
+<div class="wrapper2" id="formSignup">
+  <form action="#">
+    <h2>SignUp</h2>
+    <p id="alertMsg" class="d-none"></p>
+    <div class="input-field">
+        <input type="text" id="userName">
+        <label>Enter your name</label>
+    </div>
+    <p class="errorMsg text-danger fs-6 text-start mt-1 errorName px-2"></p>
+    <div class="input-field">
+        <input type="text" id="emailSignup">
+        <label>Enter your email</label>
+    </div>
+    <p class="errorMsg text-danger fs-6 text-start mt-1 errorEmail px-2"></p>
+    <div class="input-field">
+        <input type="password" id="pwSignup">
+        <label>Enter your password</label>
+    </div>
+    <p class="errorMsg text-danger fs-6 text-start mt-1 errorPassword px-2"></p>
+      <button class="my-3" type="button" id="btnSignup">Sign Up</button>
+      <div class="register">
+        <p>You have an account? <a href="#" id="signIn">Sign In</a></p>
+      </div>
+    </form>
+</div>
+  </div>
+</div>
+
+      
+  
+
+  <script src="js/sweetalert2.all.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/register.js"></script>
+</body>
+</html>
